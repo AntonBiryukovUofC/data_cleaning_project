@@ -8,7 +8,6 @@ The workflow implemented in run_analysis.R is as follows:
 4. Select only those features that describe SD or mean of data measurements for measured quantities.
 5. Read the training dataset, keep only the columns that correspond to the selected features.
 6. Read the training activity and subject labels ("trainsetlabel" and "trainsetsubject"), put labels on the activity and add both columns to the train_set (subjectID and activityDesc, respectively).
-
 7. Repeat 5-6 applied to the test set data.
 8. Combine "testset" and "trainset" into "totalset".
 9. Group the total_set by unique values in "subjectID" and "activityDesc"

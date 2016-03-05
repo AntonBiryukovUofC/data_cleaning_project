@@ -66,5 +66,5 @@ avg_per_group <-total_set %>% group_by(subjectID,activityDesc) %>%
    summarise_each(funs(mean))  %>% # Average each column for each group
    arrange(subjectID)# Sort by the subjectID for clarity
 
-write.csv(avg_per_group, file = "./tidy_ds_average_values.csv")
+write.table(avg_per_group, file = "./tidy_ds_average_values.txt", row.name=FALSE)
 print(" Tidy dataset has been written on HDD...")

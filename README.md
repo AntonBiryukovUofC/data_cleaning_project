@@ -7,3 +7,5 @@ It reads the test and train data, as well as the labelmap files to establish rel
 The test and train data is then merged within the script, grouped simultaneously by the subject id and the type of activity, and summarized in terms of mean values for each of the measurements within the group.
 
 The summarized data is then written in a csv file tidy_ds_averaged_values.csv.
+
+CookBook.md describes in detail the workflow of the script. The script is also supplied with informative (in my opinion) comments.

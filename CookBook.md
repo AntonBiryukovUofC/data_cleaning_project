@@ -2,6 +2,8 @@
 
 Here I describe the succession of steps leading to the clean dataset .
 The workflow implemented in run_analysis.R is as follows:
+
+
 1. Load the activity label(char) -- id(int) map (activity_label.txt)
 
 2. Create a temporary function "map_activity" that assigns the activity label as a char to the given number if found in the id-s list
